@@ -3,3 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Lexend Deca", "Open Sans", Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+
+.wrapper{
+    display: flex;
+    border-radius: 10px;
+    background-color: blue;
+    height: 400px;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.col{
+    width: calc(100%/3);
+}
+
+.bg_gold{
+    border-radius: 10px 0px 0 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.bg_soft_green{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.bg_dark_green{
+    border-radius: 0px 10px 10px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+
