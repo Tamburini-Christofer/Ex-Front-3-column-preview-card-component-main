@@ -5,20 +5,48 @@
 }
 
 body{
+    color: white;
     font-family: "Lexend Deca", "Open Sans", Arial, Helvetica, sans-serif ;
     font-size: 15px;
+    font-weight: 400;
+}
+
+h1{
+    margin: 20px 0;
+    font-weight: 700;
+    font-family: "BigShoulder","Open Sans", Arial, Helvetica, sans-serif  ;
+}
+
+img{
+    max-width: 50px;
 }
 
 .wrapper{
     display: flex;
     border-radius: 10px;
     background-color: blue;
-    height: 400px;
     width: 60%;
-    margin: 100px auto;
+    margin: 80px auto;
+}
+
+button{
+    cursor: pointer;
+    color: color-burn;
+    border:  2px solid white;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 70px ;
+    mix-blend-mode: lighten;
+    padding: 10px 30px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: white;
 }
 
 .col{
+    padding: 40px;
     width: calc(100%/3);
 }
 
